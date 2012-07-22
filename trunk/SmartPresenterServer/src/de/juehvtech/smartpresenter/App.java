@@ -5,7 +5,7 @@
 package de.juehvtech.smartpresenter;
 
 import de.juehvtech.smartpresenter.commands.CommandHandler;
-import de.juehvtech.smartpresenter.connection.server.CommunicationFactory;
+import de.juehvtech.smartpresenter.connection.server.build.CommunicationFactory;
 import de.juehvtech.smartpresenter.gui.MainGui;
 import java.io.IOException;
 

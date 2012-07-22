@@ -4,8 +4,8 @@
  */
 package de.juehvtech.smartpresenter.commands;
 
-import de.juehvtech.smartpresenter.connection.server.GuiLogger;
-import de.juehvtech.smartpresenter.connection.server.SmartPresenterCommunicatonServer;
+import de.juehvtech.smartpresenter.connection.server.build.GuiLogger;
+import de.juehvtech.smartpresenter.connection.server.build.SmartPresenterCommunicatonServer;
 import de.juehvtech.smartpresenter.robot.PdfRobotManager;
 import de.juehvtech.smartpresenter.robot.RobotManager;
 import java.awt.AWTException;

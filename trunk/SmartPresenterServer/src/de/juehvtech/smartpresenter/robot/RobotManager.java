@@ -4,7 +4,7 @@
  */
 package de.juehvtech.smartpresenter.robot;
 
-import de.juehvtech.smartpresenter.connection.server.GuiLogger;
+import de.juehvtech.smartpresenter.connection.server.build.GuiLogger;
 import de.juehvtech.smartpresenter.files.FileType;
 import java.awt.*;
 import java.awt.event.KeyEvent;

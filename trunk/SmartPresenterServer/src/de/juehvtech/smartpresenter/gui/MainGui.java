@@ -4,7 +4,7 @@
  */
 package de.juehvtech.smartpresenter.gui;
 
-import de.juehvtech.smartpresenter.connection.server.GuiLogger;
+import de.juehvtech.smartpresenter.connection.server.build.GuiLogger;
 import java.util.Timer;
 import java.util.TimerTask;
 

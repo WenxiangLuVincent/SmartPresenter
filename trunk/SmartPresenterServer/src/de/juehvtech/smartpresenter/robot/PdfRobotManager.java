@@ -4,7 +4,7 @@
  */
 package de.juehvtech.smartpresenter.robot;
 
-import de.juehvtech.smartpresenter.connection.server.GuiLogger;
+import de.juehvtech.smartpresenter.connection.server.build.GuiLogger;
 import java.awt.AWTException;
 import java.awt.event.KeyEvent;
 import java.util.logging.Level;
