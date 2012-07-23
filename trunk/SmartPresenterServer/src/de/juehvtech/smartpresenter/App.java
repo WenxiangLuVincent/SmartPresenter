@@ -15,6 +15,18 @@ import java.io.IOException;
  */
 public class App {
 
+    private static class GuiRunner implements Runnable {
+        MainGui gui;
+        GuiRunner(MainGui gui) {
+            this.gui = gui;
+        }
+
+        @Override
+        public void run() {
+            gui.setVisible(true);
+        }
+    }
+
     /**
      * @param args the command line arguments
      */
@@ -50,13 +62,7 @@ public class App {
         /*
          * Create and display the form
          */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-
-            @Override
-            public void run() {
-                new MainGui().setVisible(true);
-            }
-        });
+        java.awt.EventQueue.invokeLater(new GuiRunner(gui));
         CommunicationFactory.buildAndLaunch(new CommandHandler(gui), gui, gui);
     }
 }

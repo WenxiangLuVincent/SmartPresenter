@@ -56,7 +56,7 @@ public class ConnectionHandler implements Runnable {
 
         int factor1;
         int count = 0;
-        while (((factor1 = in.read()) > 0) || count < 200) {
+        while (((factor1 = in.read()) > 0) || count < 50) {
             if (factor1 > 0) {
                 //handle command
                 count = 0;
@@ -98,7 +98,7 @@ public class ConnectionHandler implements Runnable {
             } else {
                 try {
                     //semi active wait
-                    Thread.sleep(50);
+                    Thread.sleep(10);
                 } catch (InterruptedException ex) {
                     Logger.getLogger(ConnectionHandler.class.getName()).log(Level.SEVERE, "Problem while go to sleep", ex);
                 }
