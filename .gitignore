@@ -161,3 +161,4 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+!/trunk/SmartPresenterCommunicationServer/src/de/juehvtech/smartpresenter/connection/server/build/
